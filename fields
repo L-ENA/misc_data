@@ -1,0 +1,11 @@
+    fields = [
+        {'field': 'title', 'type': 'String'},
+        {'field': 'abstract', 'type': 'Text', 'has missing': True},
+        {'field': 'journal', 'type': 'Exact'},
+        {'field': 'volume', 'type': 'Exact', 'has missing': True},
+        {'field': 'issn', 'type': 'ShortString'},
+        {'field': 'number', 'type': 'Exact', 'has missing': True},
+        {'field': 'start_page', 'type': 'Exact', 'has missing': True},
+        {'field': 'year', 'type': 'Exact'},
+        {'field': 'authors', 'type': 'String'}
+]
